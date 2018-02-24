@@ -50,7 +50,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'crypto2go.urls'
+ROOT_URLCONF = 'crypto2go_site.urls'
 
 TEMPLATES = [
     {
@@ -75,7 +75,7 @@ STATICFILES_DIRS = (
 
 
 
-WSGI_APPLICATION = 'crypto2go.wsgi.application'
+WSGI_APPLICATION = 'crypto2go_site.wsgi.application'
 
 
 # Database
