@@ -15,7 +15,7 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.conf.urls import url
-from crypto2go.views import hello, home
+from crypto2go_site.views import hello, home
 
 urlpatterns = [
     url('admin/', admin.site.urls),
